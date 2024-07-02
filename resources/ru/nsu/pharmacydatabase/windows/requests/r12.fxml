@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.select.r12">
+    <Button fx:id="listButton" layoutX="170.0" layoutY="265.0" mnemonicParsing="false" onAction="#listButtonTapped" prefHeight="34.0" prefWidth="182.0" style="-fx-background-color: #62b1d0;" text="Получить список" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font></Button>
+    <ChoiceBox fx:id="choiceBoxMedicamentType" layoutX="213.0" layoutY="130.0" prefHeight="27.0" prefWidth="170.0" />
+    <ChoiceBox fx:id="choiceBoxMedicament" layoutX="213.0" layoutY="180.0" prefHeight="27.0" prefWidth="170.0" />
+
+    <Label layoutX="115.0" layoutY="180.0" prefHeight="17.0" prefWidth="173.0" text="Название" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font></Label>
+
+    <Label layoutX="115.0" layoutY="130.0" prefHeight="17.0" prefWidth="173.0" text="Категория" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font></Label>
+
+    <Label layoutX="107.0" layoutY="44.0" text="Получить сведения о наиболее часто &#10;делающих заказы клиентах (топ 10)" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+</AnchorPane>

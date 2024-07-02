@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.base.EntranceController">
+
+    <VBox alignment="CENTER" layoutX="220.0" layoutY="113.0" prefHeight="373.0" prefWidth="360.0">
+        <TextArea fx:id="loginText" prefHeight="16.0" prefWidth="270.0" promptText="Введите логин" text="ADMIN">
+            <VBox.margin>
+                <Insets bottom="5.0" />
+            </VBox.margin>
+        </TextArea>
+        <PasswordField fx:id="passwordText" alignment="TOP_LEFT" prefHeight="35.0" promptText="Введите пароль" text="123456">
+            <VBox.margin>
+                <Insets bottom="15.0" />
+            </VBox.margin>
+        </PasswordField>
+
+        <Button fx:id="loginButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#loginButtonTapped" prefHeight="34.0" prefWidth="358.0" style="-fx-background-color: rgb(98,177,208);" text="Войти" textFill="WHITE" />
+    </VBox>
+</AnchorPane>

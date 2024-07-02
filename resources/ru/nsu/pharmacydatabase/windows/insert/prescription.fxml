@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="450.0" style="-fx-background-color: #024c68;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.insert.PrescriptionInsertController">
+    <children>
+        <VBox alignment="CENTER" layoutX="75.0" layoutY="5.0" prefHeight="300.0" prefWidth="300.0">
+            <Label fx:id="formTitleLabel" text="Добавить рецепт" textFill="WHITE">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+
+            <Label text="Выберите лекарство" textFill="WHITE" />
+            <ChoiceBox fx:id="medicamentChoiceBox" prefHeight="30.0" prefWidth="299.0" />
+
+            <Label />
+            <TextField fx:id="countField" prefHeight="30.0" prefWidth="300.0" promptText="Количество лекарств" />
+            <Label />
+            <TextField fx:id="directionForUseField" alignment="TOP_LEFT" prefHeight="30.0" prefWidth="300.0" promptText="Показания к применению" />
+            <Label />
+            <TextField fx:id="diagnosisField" alignment="TOP_LEFT" prefHeight="30.0" prefWidth="300.0" promptText="Диагноз" />
+            <Label text="Выберите врача" textFill="WHITE" />
+            <ChoiceBox fx:id="doctorChoiceBox" prefHeight="30.0" prefWidth="299.0" />
+            <Label text="Выберите пациента" textFill="WHITE" />
+            <ChoiceBox fx:id="patientChoiceBox" prefHeight="30.0" prefWidth="300.0" />
+            <Label />
+
+            <Button fx:id="insertButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#insertButtonTapped" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: rgb(98,177,208);" text="Добавить" textFill="WHITE" />
+        </VBox>
+        <Button fx:id="newButton" layoutX="393.0" layoutY="217.0" mnemonicParsing="false" onAction="#newButtonTapped" style="-fx-background-color: rgb(98,177,208);" text="new" textFill="WHITE" />
+    </children>
+</AnchorPane>
+

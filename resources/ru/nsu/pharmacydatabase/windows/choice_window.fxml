@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.select.ChoiceController">
+    <AnchorPane layoutX="1.0" prefHeight="600.0" prefWidth="800.0">
+        <ListView fx:id="selectsListView" layoutX="75.0" layoutY="50.0" opacity="0.75" prefHeight="500.0" prefWidth="650.0" />
+        <Label layoutX="315.0" layoutY="14.0" text="Доступная информация" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+    </AnchorPane>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="450.0" style="-fx-background-color: #024c68;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.insert.MedicamentTypeInsertController">
+    <children>
+        <VBox alignment="CENTER" layoutX="75.0" layoutY="43.0" prefHeight="300.0" prefWidth="300.0">
+            <Label fx:id="formTitleLabel" text="Добавить тип лекарства" textFill="WHITE">
+                <font>
+                    <Font size="18.0" />
+                </font></Label>
+            <TextField fx:id="typeNameField" prefHeight="40.0" prefWidth="300.0" promptText="Название типа">
+            </TextField>
+
+            <Button fx:id="insertButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#insertButtonTapped" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: rgb(98,177,208);" text="Добавить" textFill="WHITE" />
+        </VBox>
+    </children>
+</AnchorPane>

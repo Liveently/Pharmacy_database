@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="540.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.select.r7">
+    <Button fx:id="listButton" layoutX="180.0" layoutY="252.0" mnemonicParsing="false" onAction="#listButtonTapped" prefHeight="34.0" prefWidth="182.0" style="-fx-background-color: #62b1d0;" text="Получить список" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font></Button>
+    <ChoiceBox fx:id="choiceBox" layoutX="190.0" layoutY="166.0" prefHeight="33.0" prefWidth="181.0" />
+    <Label layoutX="210.0" layoutY="120.0" prefHeight="17.0" prefWidth="173.0" text="Категория лекарств" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font></Label>
+    <Label layoutX="107.0" layoutY="26.0" text="Получить перечень лекарств с минимальным &#10;запасом на складе в целом &#10;и по указанной категории медикаментов" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+
+</AnchorPane>

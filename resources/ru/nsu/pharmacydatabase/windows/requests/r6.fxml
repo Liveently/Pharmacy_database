@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.select.r6">
+    <children>
+        <Button fx:id="listButton" layoutX="183.0" layoutY="233.0" mnemonicParsing="false" onAction="#listButtonTapped" prefHeight="51.0" prefWidth="145.0" text="Получить список" />
+        <Label layoutX="130.0" layoutY="102.0" prefHeight="86.0" prefWidth="349.0" text="Получить перечень и типы лекарств, &#10;достигших своей критической нормы &#10;или закончившихся &#10;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font size="15.0" />
+            </font></Label>
+    </children>
+</AnchorPane>

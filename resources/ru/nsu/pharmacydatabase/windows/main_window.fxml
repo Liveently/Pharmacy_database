@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.base.MainController">
+
+    <!-- ListView для отображения таблиц -->
+    <ListView fx:id="tableListView" editable="true" layoutX="29.0" layoutY="6.0" opacity="0.75" prefHeight="516.0" prefWidth="741.0">
+        <opaqueInsets>
+            <Insets />
+        </opaqueInsets>
+    </ListView>
+
+<!--    <Button contentDisplay="CENTER" layoutX="10.0" layoutY="50.0" mnemonicParsing="false" onAction="#dropButtonTapped" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: rgba(98,177,208, 0.7);" text="Сбросить Базу Данных" textFill="WHITE" AnchorPane.bottomAnchor="14.600000000000023">-->
+<!--        <font>-->
+<!--            <Font size="14.0" />-->
+<!--        </font>-->
+<!--    </Button>-->
+<!--    <Button contentDisplay="CENTER" layoutX="190.0" layoutY="50.0" mnemonicParsing="false" onAction="#createButtonTapped" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: rgba(98,177,208, 0.7);" text="Создать Базу Данных" textFill="WHITE" AnchorPane.bottomAnchor="14.600000000000023">-->
+<!--        <font>-->
+<!--            <Font size="14.0" />-->
+<!--        </font>-->
+<!--    </Button>-->
+
+</AnchorPane>

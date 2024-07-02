@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.select.r8">
+    <Button fx:id="listButton" layoutX="70.0" layoutY="200.0" mnemonicParsing="false" onAction="#listButtonTapped" prefHeight="34.0" prefWidth="182.0" style="-fx-background-color: #62b1d0;" text="Получить список" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font></Button>
+    <Label layoutX="107.0" layoutY="80.0" text="Получить перечень и общее число заказов, &#10;находящихся в производстве " textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Button fx:id="numButton" layoutX="270.0" layoutY="200.0" mnemonicParsing="false" onAction="#numButtonTapped" prefHeight="34.0" prefWidth="182.0" style="-fx-background-color: #62b1d0;" text="Получить число" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Button>
+
+</AnchorPane>

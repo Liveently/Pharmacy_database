@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="450.0" style="-fx-background-color: #024c68;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.filter.OrderFilterController">
+   <children>
+      <AnchorPane prefHeight="300.0" prefWidth="450.0">
+         <children>
+            <Label layoutX="158.0" layoutY="25.0" text="Настройка фильтра" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="medicamentChoiceBox" layoutX="217.0" layoutY="70.0" prefWidth="150.0" />
+            <Label layoutX="130.0" layoutY="72.0" text="Лекарство" textFill="WHITE" />
+            <Label layoutX="130.0" layoutY="122.0" text="Готов" textFill="WHITE" />
+            <ChoiceBox fx:id="isReadyChoiceBox" layoutX="217.0" layoutY="120.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="isReceiveChoiceBox" layoutX="217.0" layoutY="170.0" prefWidth="150.0" />
+            <Label layoutX="130.0" layoutY="172.0" text="Получен" textFill="WHITE" />
+            <Button fx:id="searchButton" layoutX="158.0" layoutY="235.0" mnemonicParsing="false" onAction="#searchButtonTapped" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: rgb(98,177,208);" text="Найти" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

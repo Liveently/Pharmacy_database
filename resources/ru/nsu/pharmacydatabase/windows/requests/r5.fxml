@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.select.BuyerListController">
+    <Button fx:id="listButton" layoutX="103.0" layoutY="307.0" mnemonicParsing="false" onAction="#listButtonTapped" prefHeight="34.0" prefWidth="182.0" style="-fx-background-color: #62b1d0;" text="Получить список" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font></Button>
+    <ChoiceBox fx:id="choiceBoxMedicamentType" layoutX="246.0" layoutY="124.0" prefHeight="26.0" prefWidth="150.0" />
+    <Label layoutX="103.0" layoutY="40.0" prefHeight="63.0" prefWidth="464.0" text="Получить перечень и общее число покупателей, &#10;заказывавших определенное лекарство или определенные&#10;типы лекарств за данный период" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <TextField fx:id="startDate" layoutX="249.0" layoutY="206.0" promptText="ДД-ММ-ГГ" />
+    <TextField fx:id="endDate" layoutX="249.0" layoutY="254.0" promptText="ДД-ММ-ГГ" />
+    <Label layoutX="203.0" layoutY="208.0" text="От:" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+    <Label layoutX="200.0" layoutY="256.0" text="До: " textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Label>
+   <ChoiceBox fx:id="choiceBoxMedicament" layoutX="246.0" layoutY="166.0" prefHeight="26.0" prefWidth="150.0" />
+   <Button fx:id="numButton" layoutX="373.0" layoutY="307.0" mnemonicParsing="false" onAction="#numButtonTapped" prefHeight="34.0" prefWidth="182.0" style="-fx-background-color: #62b1d0;" text="Получить число" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Button>
+   <Label layoutX="136.0" layoutY="126.0" text="Тип лекарства" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+   <Label layoutX="167.0" layoutY="168.0" text="Название" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Label>
+
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #226078;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.select.ReceiveController">
+   <children>
+      <Button fx:id="numButton" layoutX="360.0" layoutY="233.0" mnemonicParsing="false" onAction="#numButtonTapped" prefHeight="51.0" prefWidth="146.0" text="Получить количество" />
+      <Button fx:id="listButton" layoutX="71.0" layoutY="233.0" mnemonicParsing="false" onAction="#listButtonTapped" prefHeight="51.0" prefWidth="145.0" text="Получить список" />
+      <Label layoutX="130.0" layoutY="102.0" prefHeight="86.0" prefWidth="349.0" text="Получить сведения о покупателях, &#10;которые не пришли забрать свой &#10;заказ в назначенное им время и общее их число.&#10;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

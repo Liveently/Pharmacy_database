@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="370.0" prefWidth="450.0" style="-fx-background-color: #024c68;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.pharmacydatabase.controllers.insert.MedicamentInsertController">
+    <children>
+        <VBox alignment="CENTER" layoutX="75.0" prefHeight="343.0" prefWidth="300.0">
+            <Label fx:id="formTitleLabel" text="Добавить лекарство" textFill="WHITE">
+                <font>
+                    <Font size="18.0" />
+                </font>
+            </Label>
+            <Label />
+            <TextField fx:id="titleField" prefHeight="40.0" prefWidth="300.0" promptText="название"/>
+            <Label />
+            <TextField fx:id="usageField" prefHeight="40.0" prefWidth="300.0" promptText="способ применения"/>
+            <Label />
+            <TextField fx:id="timeField" prefHeight="30.0" prefWidth="300.0" promptText="объём" />
+            <Label text="Выберите тип" textFill="WHITE" />
+            <ChoiceBox fx:id="typeIdField" prefHeight="38.0" prefWidth="300.0" />
+                        <Label />
+            <TextField fx:id="criticalRateField" prefHeight="40.0" prefWidth="300.0" promptText="Критическая норма" />
+            <Label />
+            <Button fx:id="insertButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#insertButtonTapped" prefHeight="33.0" prefWidth="304.0" style="-fx-background-color: rgb(98,177,208);" text="Добавить" textFill="WHITE" />
+        </VBox>
+    </children>
+</AnchorPane>
